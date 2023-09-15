@@ -10,7 +10,7 @@ export default {
 	props: { text: String, color: String },
 	methods: {
 		onClick() {
-			console.log("click");
+			this.$emit("btn-click");
 		},
 	},
 };
